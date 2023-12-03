@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        img{
+            width: 30%;
+        }
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="bg.png" alt="">
+        <div class="container">
+            <div class="watch">
+                <div class="centered-background">
+                    <div class="outer-circle"></div> 
+                    <div class="inner-circle">
+                      <span class="text minute">00 :</span>
+                      <span class="text sec">&nbsp;00 :</span>
+                    <span class="text msec">&nbsp;00</span>
+                 </div> 
+                </div>                  
+            
+           
+            
+        <div class="btn-wrapper">
+            <button class="btn reset hidden">Reset</button>
+            <button class="btn play ">Play</button>
+            <button class="btn lap hidden">Lap</button>
+            </div>
+            
+            <ul class="laps">
+                <button class="lap-clear-btn hidden">Clear All</button>
+                </ul>
+            </div>
+        </div>      
+    <script src="script.js"></script>
+       
+    
+    </body>
+</head>
+<body>
+    
+</body>
+</html>
